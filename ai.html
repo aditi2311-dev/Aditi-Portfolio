@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How AI works</title>
+    <link rel="stylesheet" href="style5.css">
+
+</head>
+<body>
+    <h1><i>Basic principles of machine learning</i></h1>
+    <hr>
+    <h3>Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and models that allow computers to learn and make predictions or decisions based on data without being explicitly programmed. Here are some basic principles of machine learning:
+
+    <ol><li>Data: Machine learning relies on data to learn patterns and make predictions. The quality and quantity of data greatly influence the performance of machine learning models. Datasets are typically divided into training, validation, and test sets.</li>
+        
+    <li>Feature Representation: Data is represented in the form of features, which are measurable properties or characteristics of the data. Feature selection and engineering involve choosing or creating relevant features that best represent the underlying patterns in the data.</li>
+        
+    <li>Model Selection: Machine learning algorithms come in various types, including supervised learning, unsupervised learning, and reinforcement learning. The choice of algorithm depends on the nature of the problem and the available data. Common algorithms include linear regression, decision trees, support vector machines, neural networks, and clustering algorithms.</li>
+        
+    <li>Training: In supervised learning, models are trained on labeled data, where each example is associated with a target label or outcome. During training, the model adjusts its parameters to minimize the difference between its predictions and the actual labels. This process involves optimization techniques like gradient descent.</li>
+        
+    <li>Evaluation: After training, the model's performance is evaluated using validation data that it hasn't seen before. Common evaluation metrics include accuracy, precision, recall, F1 score, and mean squared error, depending on the type of problem (classification or regression).</li>
+        
+    <li>Generalization: A key goal of machine learning is to generalize well to unseen data, meaning that the model performs accurately on new, unseen examples. Overfitting occurs when a model learns to memorize the training data instead of capturing underlying patterns, while underfitting occurs when a model is too simple to capture the complexities of the data.</li>
+        
+    <li>Hyperparameter Tuning**: Machine learning models often have hyperparameters that control aspects of the learning process, such as learning rate, regularization strength, and model architecture. Hyperparameter tuning involves selecting the best set of hyperparameters to optimize the model's performance.</li>
+        
+    <li>Deployment: Once a model has been trained and evaluated, it can be deployed to make predictions or decisions on new, unseen data in real-world applications. Deployment involves considerations such as scalability, latency, and monitoring for model performance drift over time.</li>
+        
+    These basic principles provide a foundation for understanding and implementing machine learning algorithms to solve a wide range of problems across various domains.</ol></h3>
+    <h1><i>Data preprocessing, training, and inference</i></h1>
+    <hr>
+    <h3><ul>Data preprocessing, training, and inference are fundamental steps in the development and deployment of machine learning models. Let's explore each step:
+
+    <li>Data Preprocessing:
+    - Data Cleaning: This involves handling missing values, outliers, and noisy data. Common techniques include imputation (replacing missing values with estimated ones), outlier detection, and filtering noisy data points.
+    - Feature Scaling: Features may have different scales, which can adversely affect the performance of some machine learning algorithms. Techniques like normalization (scaling features to a similar range) or standardization (scaling features to have a mean of 0 and a standard deviation of 1) can be used to address this.
+    - Feature Encoding: Categorical features need to be converted into numerical representations for many machine learning algorithms to work effectively. Techniques include one-hot encoding, label encoding, and embedding.
+    - Feature Selection: Not all features may be relevant for the model or may introduce noise. Feature selection methods like filtering (based on statistical tests), wrapper methods (evaluating subsets of features), or embedded methods (feature importance from model training) can help choose the most informative features.</li>
+        
+    <li> Training:
+    - Model Selection: Choose an appropriate machine learning algorithm based on the nature of the problem (e.g., classification, regression, clustering) and the characteristics of the data.
+    - Training: Use a portion of the preprocessed data (the training set) to train the model. During training, the model learns the underlying patterns in the data by adjusting its parameters to minimize a predefined loss or error function. This process typically involves optimization algorithms like gradient descent.
+    -Hyperparameter Tuning: Fine-tune the model's hyperparameters to optimize its performance on the validation set. Techniques like grid search, random search, or Bayesian optimization can be used to search the hyperparameter space efficiently.
+    -Model Evaluation: Assess the performance of the trained model on a separate validation set using appropriate evaluation metrics. This helps ensure that the model generalizes well to unseen data and performs effectively in real-world scenarios.</li>
+        
+    <li>Inference:
+    - Deployment: Once the model has been trained and evaluated, it can be deployed to make predictions or decisions on new, unseen data in real-world applications. This involves integrating the model into production systems or applications.
+    - Scalability: Ensure that the deployed model can handle the expected workload and scale efficiently to meet demand. Techniques like model parallelism, distributed training, and deployment on cloud infrastructure can help achieve scalability.
+     - Monitoring: Continuously monitor the performance of the deployed model in production to detect any degradation or drift in performance over time. This may involve monitoring metrics like prediction accuracy, latency, and resource utilization.</li>
+        
+    By following these steps, practitioners can develop robust and effective machine learning models that address real-world problems and deliver value in production environments.</ul></h3>
+
+</body>
+</html>

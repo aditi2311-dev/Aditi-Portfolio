@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(77,25,5);
+}
+h3 {
+    color: rgb(165, 75, 39);
+    text-decoration: red dotted underline;
+}
+body {
+    background-color:rgb(219,154,130) ;
+}

@@ -1,0 +1,24 @@
+h1 {
+    color:rgb(77, 25, 5) ;
+    text-decoration: red wavy underline;
+    text-align: center;
+}
+/* h3 {
+    color: rgb(77,25,5);
+    background-color: burlywood;
+    text-decoration: red wavy underline;
+    text-align: center; */
+
+h3 {
+    color: rgb(77, 25, 5);
+    font-weight: bolder;
+    text-align: right;
+    text-decoration: red dashed underline;
+    
+}
+body {
+    background-color: rgb(219, 154, 130);
+}
+h4 {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: rgb(77, 25, 5);
+    text-decoration: red wavy underline;
+    background-color: rgb(221, 120, 79);
+}
+a {
+    color: crimson;
+    text-decoration: none;
+
+}
+h3 {
+    text-align: center;
+}
+h3 {
+    background-color: burlywood;
+}
+body {
+    background-color: coral;
+}
+p {
+    text-align: center;
+}
+
